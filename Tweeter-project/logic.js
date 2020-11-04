@@ -71,9 +71,12 @@ const tweeterModule = function(){
     }
 }
 
-const test = tweeterModule()
-test.addPost("this is a test post")
-test.removePost("p3")
-test.addComment("p1", "this is a test comment")
-test.removeComment("p1","c3")
-console.log(test.getPosts())
+// const test = tweeterModule()
+// // test.addPost("this is a test post")
+// // test.removePost("p3")
+// // test.addComment("p1", "this is a test comment")
+// // test.removeComment("p1","c3")
+// // console.log(test.getPosts())
+
+// const rendering = renderer()
+// rendering.renderPosts(test.getPosts())
