@@ -32,7 +32,7 @@ const tweeterModule = function(){
     }
     const removePost = function(postID){
         for(let i in posts){
-            if(posts[i].id == [postID]){
+            if(posts[i].id === postID){
                 posts.splice(i, 1)
                 postIdCounter--
             }
